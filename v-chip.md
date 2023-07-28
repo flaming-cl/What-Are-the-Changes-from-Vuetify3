@@ -1,5 +1,5 @@
 ## Docs
-- Vuetify 2 Doc: https://v2.vuetifyjs.com/en/api/v-chip/#links
+- Vuetify 2 Doc: https://v2.vuetifyjs.com/en/api/v-chip
 - Vuetify 3 Doc: https://vuetifyjs.com/en/api/v-chip/
 
 ## Emojis
@@ -16,14 +16,13 @@
 | dark | boolean (default: false) | - | ❌ |
 | exact-active-class | string | - | ❌ |
 | exact-path | boolean (default: false) | - | ❌ |
-| large | boolean (default: false) | - | ❌ |
-| light | boolean (default: false) | - | ❌ |
 | nuxt | boolean (default: false) | - | ❌ |
-| small | boolean (default: false) | - | ❌ |
 | target | string | - | ❌ |
 | text-color | string (default: undefined) | - | ❌ |
-| x-large | boolean (default: false) | - | ❌ |
-| x-small | boolean (default: false) | - | ❌ |
+| large | boolean (default: false) | size: string \| number (default: 'default') | ✍️ Replaced by `size` |
+| small | boolean (default: false) | size: string \| number (default: 'default') | ✍️ Replaced by `size` |
+| x-large | boolean (default: false) | size: string \| number (default: 'default') | ✍️ Replaced by `size` |
+| x-small | boolean (default: false) | size: string \| number (default: 'default') | ✍️ Replaced by `size` |
 | active-class | - | string (default: undefined) | 🆕 |
 | append-avatar | - | string (default: undefined) | 🆕 |
 | append-icon | - | string \| (string \| [string, number])[] \| (new () => any) \| FunctionalComponent (default: undefined) | 🆕 |
@@ -34,13 +33,12 @@
 | prepend-icon | - | string \| (string \| [string, number])[] \| (new () => any) \| FunctionalComponent (default: undefined) | 🆕 |
 | rounded | - | string \| number \| boolean (default: false) | 🆕 |
 | selected-class | - | string (default: undefined) | 🆕 |
-| size | - | string \| number (default: 'default') | 🆕 |
 | text | - | string (default: undefined) | 🆕 |
 | theme | - | string (default: undefined) | 🆕 |
 | active-class | string | string (default: undefined) | ✍️ Default value changed |
 | close | boolean (default: false) | closable: boolean (default: false) | ✍️ Renamed |
 | input-value | any (default: undefined) | model-value: boolean (default: true) | ✍️ Renamed and default value changed |
-| outlined | boolean (default: false) | variant: 'text' \| 'flat' \| 'elevated' \| 'tonal' \| 'outlined' \| 'plain' (default: 'tonal') | ✍️ Replaced by variant |
+| outlined | boolean (default: false) | variant: 'text' \| 'flat' \| 'elevated' \| 'tonal' \| 'outlined' \| 'plain' (default: 'tonal') | ✍️ Replaced by `variant` |
 | ripple | boolean or object (default: undefined) | ripple: boolean or { class: string } (default: true) | ✍️ Default value changed |
 
 ## Events
