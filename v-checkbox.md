@@ -1,6 +1,6 @@
 ## Docs
-- Vuetify 2 Doc: https://v2.vuetifyjs.com/en/api/v-chip/#links
-- Vuetify 3 Doc: https://vuetifyjs.com/en/api/v-chip/
+- Vuetify 2 Doc: https://v2.vuetifyjs.com/en/api/v-checkbox
+- Vuetify 3 Doc: https://vuetifyjs.com/en/api/v-checkbox
 
 ## Emojis
 - ❌ removed
