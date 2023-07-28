@@ -56,7 +56,7 @@
 | update:error | boolean | - | ❌ |
 | click:append | - | never | 🆕 |
 | click:prepend | - | never | 🆕 |
-| update:focused | - | [boolean] | [boolean] | 🆕 |
+| update:focused | - | [boolean] |  🆕 |
 | update:modelValue | - | [boolean] | 🆕 Replaces @input event |
 
 ## Slots
