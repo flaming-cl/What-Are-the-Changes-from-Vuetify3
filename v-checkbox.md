@@ -12,11 +12,11 @@
 | Prop | Vuetify 2 | Vuetify 3 | Change |
 | --- | --- | --- | --- |
 | background-color | string (default: undefined) | - | ❌ Renamed to bg-color |
-| dark | boolean (default: false) | - | ❌ |
 | dense | boolean (default: false) | - | ❌ Combined into density prop |
 | error-count | number \| string (default: 1) | - | ❌ |
 | input-value | any (default: undefined) | - | ❌ Renamed to model-value |
-| light | boolean (default: false) | - | ❌ |
+| dark | boolean (default: false) | - | ❌ Props light / dark have been removed from components. **Solution: 1.** Use v-theme-provider to set the theme for a specific component tree. **Solution 2.** Components that previously had a dark prop, such as v-app-bar, now accept theme="dark" prop |
+| light | boolean (default: false) | - | ❌ same as the "dark" prop |
 | off-icon | string (default: '$checkboxOff') | - | ❌ Renamed to false-icon |
 | on-icon | string (default: '$checkboxOn') | - | ❌ Renamed to true-icon |
 | success | boolean (default: false) | - | ❌ |
